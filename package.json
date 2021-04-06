@@ -1,0 +1,37 @@
+{
+  "name": "@intro-do-riu/tax-unit-test",
+  "description": "Unit test for ",
+  "license": "MIT",
+  "author": "Majd Uddin",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "build": "tsc 1>&2",
+    "clean": "rimraf lib",
+    "test": "node ./node_modules/mocha/bin/mocha lib/test/**/*test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/glob": "^7.1.1",
+    "@types/request": "2.47.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.0",
+    "electron": "^2.0.10",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "glob": "^7.1.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intro-do-riu/M1-E1"
+  }
+}

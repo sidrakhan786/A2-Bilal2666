@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "lib": [
+        "esnext.asynciterable",
+        "es2017",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+      ],
+      "module": "commonjs",
+      "stripInternal": false,
+      "declaration": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": false,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "inlineSources": true,
+      "declarationMap": true,
+      "jsx": "react",
+      "forceConsistentCasingInFileNames": true,
+      "incremental": true,
+      "baseUrl": "./node_modules",
+      "outDir": "./lib"
+    },
+  "include": [
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
+  "exclude": [
+    "lib",
+    "node_modules"
+  ]
+}
